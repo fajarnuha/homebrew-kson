@@ -1,21 +1,21 @@
 class Kson < Formula
   desc "JSON toolkit with jq-compatible queries"
   homepage "https://github.com/fajarnuha/kson"
-  url "https://github.com/fajarnuha/kson/archive/refs/tags/v0.3.2.tar.gz"
-  sha256 "974bcfa35bdd307ec369d171d9c98730a9a76063ab2ff8f5b53e5f79eda0faba"
+  url "https://github.com/fajarnuha/kson/archive/refs/tags/v0.3.3.tar.gz"
+  sha256 "5bacdbb7d616b4058e96eaf698d0344dd9d057a87ae1a07a9cdabf1f70a6937d"
   license "Apache-2.0"
 
   depends_on :macos
 
   resource "binary" do
     on_arm do
-      url "https://github.com/fajarnuha/kson/releases/download/v0.3.2/kson-macos-arm64.tar.gz"
-      sha256 "21d40f143f214bfbe766a0a1810a172b9fbf78b95254eed42445f4e735e5d548"
+      url "https://github.com/fajarnuha/kson/releases/download/v0.3.3/kson-macos-arm64.tar.gz"
+      sha256 "c2521dbf5fa391adbf380252784eec2efe8729f1b749bf90aed3b94ee613c1d3"
     end
 
     on_intel do
-      url "https://github.com/fajarnuha/kson/releases/download/v0.3.2/kson-macos-x64.tar.gz"
-      sha256 "5742504a821c3600f607d4d68b8680e04dd8d6afe4328c7d6d768cd33a36ffbd"
+      url "https://github.com/fajarnuha/kson/releases/download/v0.3.3/kson-macos-x64.tar.gz"
+      sha256 "3fb662f6f108abb541de661daf6df51c626f7413093119198db308e6df19021c"
     end
   end
 
